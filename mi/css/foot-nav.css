@@ -1,0 +1,39 @@
+body{
+    background-color: #F5F5F5;
+    height: 100vh;
+}
+a{
+    color: #979797;
+}
+a:hover{
+    color: #FF8B43;
+    text-decoration: none;
+}
+/*图标统一样式*/
+.u-icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+/*底部*/
+.u-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+.u-nav>div{
+    margin-top: 12px;
+}
+.container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.u-nav ul li{
+    padding:0  20px;
+}
+/*a链接点击之后变颜色*/
+#nav-visited:visited{
+    color: #FF8B43;
+}

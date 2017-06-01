@@ -1,0 +1,13 @@
+/*公共样式*/
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#666666;
+}
+.clear-fix:after{
+    content:'';
+    display: block;
+    clear: both;
+}
